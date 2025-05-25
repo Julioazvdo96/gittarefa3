@@ -1,0 +1,24 @@
+mkdir projeto-git-exercicio
+cd projeto-git-exercicio
+git init
+git add .
+git commit -m "commit inicial"
+git diff
+git add .
+git commit -m "commit com alterações no arquivo 1 e arquivo 2"
+git log
+git log --oneline
+git log --graph
+git revert HEAD
+git stash
+git checkout -b nova-funcionalidade
+git stash pop
+git reflog
+git log --oneline
+git tag -a v1.0 -m "Versão estável inicial" f97d007
+git remote add origin https://github.com/Julioazvdo96/gittarefa3.git
+git push origin v1.0
+git status
+git add comandos.txt
+git commit -m "commit com arquivo3.txt alterado e comandos.txt"
+git push origin nova-funcionalidade
